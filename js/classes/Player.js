@@ -21,6 +21,7 @@ class Player{
         c.fillRect(this.position.x, this.position.y, this.width, this.height);    
     }
     update(){
+        this.position.x += this.velocity.x 
         this.position.y += this.velocity.y
         this.sides.bottom = this.position.y + this.height;
         //above bottom of canvas
