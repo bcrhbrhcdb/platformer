@@ -27,45 +27,12 @@ function animate(){
     c.fillRect(0, 0, canvas.width, canvas.height);
     player.velocity.x = 0;
     if(keys.d.pressed){
-        player.velocity.x = 1;   
+        player.velocity.x = 5;   
     }else if (keys.a.pressed){
-        player.velocity.x = -1;
+        player.velocity.x = -5;
     }
     player.draw()
     player.update();
-    
+     
 }
 animate()
-window.addEventListener('keydown', (event)=>{
-    console.log(event.key);
-    switch (event.key){
-        case "w": 
-            if(player.velocity.y === 0){
-            player.velocity.y = -20;
-            }
-            break
-            case "a": 
-                keys.a.pressed = true;
-                // move player left
-            break;
-            case "d": 
-            keys.d.pressed = true;
-            break;
-        
-    }
-})
-window.addEventListener('keyup', (event)=>{
-    console.log(event.key);
-    switch (event.key){
-        case "a": 
-        keys.a.pressed = false;
-
-        // move player left
-            break;
-        case "d": 
-        keys.d.pressed = false;
-        // move player right
-            break;
-        
-    }
-})
