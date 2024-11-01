@@ -3,6 +3,21 @@
     "start": "servor --reload"
   },
   "dependencies": {
+    "npm": "^10.9.0",
     "servor": "^4.0.2"
-  }
+  },
+  "name": "platformer",
+  "description": "[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/bcrhbrhcdb/platformer)",
+  "version": "1.0.0",
+  "main": "script.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcrhbrhcdb/platformer.git"
+  },
+  "author": "Alex Peterson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcrhbrhcdb/platformer/issues"
+  },
+  "homepage": "https://github.com/bcrhbrhcdb/platformer#readme"
 }
