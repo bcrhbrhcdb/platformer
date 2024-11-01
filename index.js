@@ -5,7 +5,14 @@ canvas.height = 64 * 9; // 576
 c.fillStyle = 'white';
 c.fillRect(0, 0, canvas.width, canvas.height);
 
+class Sprite{
+    constructor({position}){
+        this.position = this.position;
+        this.image = new Image();
+        this.image.src = ""
 
+    }
+}
 
 // let bottom = y + 100;
 
